@@ -43,3 +43,21 @@ of how long Pres Pollack spent deciding which move to make. You are guaranteed t
 out of the cavern if she takes the shortest path out.
 ## How to play 
 Run GUI.java
+
+## Running in headless Mode
+
+Running from GameState.java runs the program in headless
+mode (without a GUI); running it from GUI.java runs it with an accompanying display, which may be
+helpful for debugging. By default, each of these runs a single map on a random seed.
+
+Two optional flags can be used to run the program in different ways.
+
+1. -n <count> runs the program multiple times. This option is available only in headless mode; it is
+ignored if run with the GUI. Output will still be written to the console for each map so you know
+how well you did, and an average score will be provided at the end. This is helpful for running your
+solution many times and comparing different solutions on a large number of maps.
+  
+  
+2. -s <seed>: runs the program with a predefined seed. This allows you to test your solutions on
+particular maps that can be challenging or that you might be failing on. It is helpful for debugging.
+This can be used both with the GUI and in headless mode.
