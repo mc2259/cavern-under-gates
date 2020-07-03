@@ -61,3 +61,10 @@ solution many times and comparing different solutions on a large number of maps.
 2. -s ( seed) : runs the program with a predefined seed. This allows you to test your solutions on
 particular maps that can be challenging or that you might be failing on. It is helpful for debugging.
 This can be used both with the GUI and in headless mode.
+
+For example:
+
+<img width="506" alt="Screenshot 2020-07-03 at 3 31 45 PM" src="https://user-images.githubusercontent.com/57819870/86458212-8a0fbd80-bd42-11ea-85e2-baff24530e27.png">
+
+<img width="495" alt="Screenshot 2020-07-03 at 3 31 40 PM" src="https://user-images.githubusercontent.com/57819870/86458223-8da34480-bd42-11ea-8e27-fba02b1ac647.png">
+
