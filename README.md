@@ -14,5 +14,14 @@ greedily to optimize the find algorithm, but the greediness does not always work
 
 <img width="336" alt="Screenshot 2020-07-03 at 1 32 05 PM" src="https://user-images.githubusercontent.com/57819870/86446591-c8e94780-bd31-11ea-8292-ddaef4686fc4.png">
 
+##  Scram Phase
+
+After picking up the Orb, the walls of the cavern shift and a new layout is generated. Additionally, piles of
+gold fall onto the ground. Luckily, underneath the Orb is a map, which reveals the full cavern. However,
+2
+the stress of the moving walls has compromised the integrity of the cavern, beginning a step limit after
+which the ceiling will collapse. Additionally, picking up the Orb activated the traps and puzzles of the
+cavern, causing different edges of the graph to have different weights.
+
 ## How to play 
 Run GUI.java
